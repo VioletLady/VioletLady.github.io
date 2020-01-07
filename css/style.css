@@ -45,55 +45,6 @@
     padding:1em;
     border-radius: 20px;   
   }
-<<<<<<< HEAD
-=======
-
-  
-  .middle a:link {
-  color: #498467;
-    }
-  
-  .middle a:visited {
-  color: #498467;
-  }
-
- .middle a:hover {
-  color: #592941;
-  }
-
- .middle a:active {
-  color: #592941;
-  }
-  
-  .middle h3{
-    padding-left:20px;
-  }
-  
-  
-  footer a:link{
-   color: #B2D3A8;
-  }
-  
-  footer a:visited {
-  color: #498467;
-  }
-
-  footer a:hover {
-  color: #EDE5A6;
-  }
-
-  footer a:active {
-  color: #592941;
-  }
-  
-  hr {
-    display: block;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    margin-right: auto;
-    margin-left: auto;
-}
->>>>>>> ca530662195e8b77967005a4a59754add89dd59e
 
   
   .middle a:link {
