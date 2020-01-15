@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em){
+
+h1{
+    font-size:2.5em;
+      }
+
+h3 {font-size:1.5em;}
+
+header, footer, .idcard{ 
+    border-radius: 5px 80px;
+  }
+
+  .idcard img{  
+    box-shadow: 0px 0px 20px 0px #750a23e0;   
+    border-radius: 5px 60px;
+  }
+
+  .idcard img{
+    float:right;
+    right:20px;
+    top:20px;
+    position:relative;  
+  }
+
+
+}
