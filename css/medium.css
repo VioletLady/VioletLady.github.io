@@ -21,6 +21,8 @@ header, footer, .idcard{
     top:20px;
     position:relative;  
   }
-
+body{
+  margin-top: 20px; 
+}
 
 }
