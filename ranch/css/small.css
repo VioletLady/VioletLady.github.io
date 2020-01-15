@@ -12,6 +12,7 @@ body {
 header {
     background-color: #871F78;
     padding:1rem 2%;
+    color:#fff;
 }
 
 header h1{
@@ -47,7 +48,8 @@ main h1{
     color: #871F78;
 }
 
-main figure img{width:100%;}
+main figure img{width:100%;
+    border: solid 2px #871F78; }
 main figure{
     width: 100%;
     margin:0;
@@ -59,6 +61,7 @@ footer{
     text-align:center;
     padding: 1rem 2%;
     background-color:  #871F78;
+    color:#fff;
 }
 
 
