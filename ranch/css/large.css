@@ -2,7 +2,7 @@
 
 main {max-width: 75rem; margin:auto;} /*same as 1200px*/
 
-nav ul {padding-left:11.5%;} /*it was 2% en in video example*/
+nav ul {padding-left:2%;} 
 nav li {width:auto;}
 nav a {padding:.5rem 1rem;}
 
