@@ -10,7 +10,7 @@ body {
 /*header rules here*/
 
 header {
-    background-color:#17a8e4;
+    background-color: #871F78;
     padding:1rem 2%;
 }
 
@@ -23,7 +23,7 @@ header h2{
 }
 
 /*navigation rules here */
-nav { background-color:#111;}
+nav { background-color:#160515;}
 nav ul {margin:0; padding:0;}
 nav li {list-style-type:none;}
 nav li.active {background-color:#333;}
@@ -36,7 +36,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {background-color:#444;}
+nav a:hover {background-color:#D7B6D3;}
 
 main{
     padding: 1rem 2%;
@@ -44,7 +44,7 @@ main{
 }
 
 main h1{
-    color:#17a8e4;
+    color: #871F78;
 }
 
 main figure img{width:100%;}
@@ -58,7 +58,7 @@ main figcaption {text-align:center; font-size:.8rem;}
 footer{
     text-align:center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color:  #871F78;
 }
 
 
