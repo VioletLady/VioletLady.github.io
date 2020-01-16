@@ -28,9 +28,9 @@
   body{   
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size:1em;  
-    background-image: url("images/pixel-heart.png");
+    background-image: url("/images/full-bloom.png");
     background-repeat: repeat;
-  
+   
   }
   
   .idcard{
