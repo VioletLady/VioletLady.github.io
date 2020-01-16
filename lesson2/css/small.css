@@ -21,6 +21,10 @@ h2 {
     font-size: 2em;
 }
 
+body {
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
 /*body {
     width:1300px;
     margin: 0 auto;
