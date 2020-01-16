@@ -26,8 +26,11 @@
   }
   
   body{   
-  font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size:1em;    
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size:1em;  
+    background-image: url("images/pixel-heart.png");
+    background-repeat: repeat;
+  
   }
   
   .idcard{
