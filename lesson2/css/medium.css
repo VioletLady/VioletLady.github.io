@@ -8,7 +8,21 @@
 
 body {
     text-align: left;
-   
 }
+
+div:nth-child(2) {
+    display: block;
+}
+
+div:nth-child(3) {
+    grid-column: span 2;
+}
+
+div:nth-child(3) img{
+    text-align: center; 
+    display: block;
+    width: 325px;
+}
+
 
 }

@@ -22,5 +22,9 @@
 
     }
 
+    div:nth-child(3) {
+        grid-column: span 1;
+    }
+
 
 }
