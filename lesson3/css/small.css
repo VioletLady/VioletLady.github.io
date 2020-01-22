@@ -64,6 +64,17 @@ main h1{color:#42253b;}
 main h2{color:#4c2c69;
         Font-Family: 'Prata', Serif;}
 
+main img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.windy {
+    width:150px;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color:  #82d173;
