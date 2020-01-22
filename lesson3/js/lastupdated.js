@@ -1,0 +1,1 @@
+document.write("Last updated: " + document.lastModified);
