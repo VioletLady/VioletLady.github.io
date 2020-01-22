@@ -19,9 +19,9 @@ header {
     color:#abfaa9;
     Font-Family: 'Prata', Serif;
 }
-header img{float:left; margin-right:10px; width:30px;}
-header h1 {margin: 0; font-size:48px;}
-header h2 {margin: 0; font-size:16px;
+header img{float:left; margin-right:10px; width:50px;}
+header h1 {margin: 0; font-size:1.3rem;}
+header h2 {margin: 0; font-size:1rem;
             Font-Family: 'Lato', Sans-Serif;
 }
 
@@ -44,7 +44,6 @@ nav ul li a {
     text-align: center;
     font-weight: bold;
 }
-
 
 nav ul li a:hover {
     background-color: #4c2c69;
@@ -70,6 +69,16 @@ footer {
     font-size: .9rem;
 }
 
+footer a {
+    color: #4c2c69;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
