@@ -9,16 +9,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     Font-Family: 'Lato', Sans-Serif;
+    color:#42253b;}
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #31263e;
+    background-color: #42253b;
     color:#abfaa9;
     Font-Family: 'Prata', Serif;
 }
+
 header img{float:left; margin-right:10px; width:50px;}
 header h1 {margin: 0; font-size:1.3rem;}
 header h2 {margin: 0; font-size:1rem;
@@ -50,7 +52,7 @@ nav ul li a:hover {
     color: #abfaa9;
 }
 nav ul li.active a {
-    background-color: #31263e;
+    background-color: #42253b;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -58,6 +60,7 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+main h1{color:#42253b;}
 main h2{color:#4c2c69;}
 
 /*----------- FOOTER --------------*/
