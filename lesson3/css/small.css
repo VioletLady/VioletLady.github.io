@@ -75,6 +75,20 @@ main img {
 .windy {
     width:150px;
 }
+
+.strong{
+    font-weight: bold;
+    color:#4c2c69;
+    background-color: #abfaa9;
+    padding: 5px;
+}
+
+.persona{
+    width:150px;
+    float:left;
+    padding:10px;
+    
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color:  #82d173;
@@ -82,6 +96,7 @@ footer {
     text-align: center;
     color: #4c2c69;
     font-size: 12px;
+    line-height: 1.5rem;
 }
 
 footer a {

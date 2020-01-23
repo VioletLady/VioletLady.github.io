@@ -21,8 +21,10 @@ header h2{font-size:1.3rem;}
 
 
 /*----------- MAIN --------------*/
-main img {
-    width: 75%;  
+
+
+.fontstable {
+    width:550px;
 }
 
 
