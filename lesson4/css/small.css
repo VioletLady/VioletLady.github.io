@@ -125,9 +125,10 @@ main img {
 
 
 main div {
-    background-color: #95a3b3;
+    background-color: #f0f0f0;
     height:150px;
- 
+    border: solid 2px #42253b;
+    margin:10px;
 }
 /*----------- FOOTER --------------*/
 footer {
