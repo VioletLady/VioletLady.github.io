@@ -13,9 +13,7 @@
 
 
 /*----------- NAVIGATION --------------*/
-/*nav {
-    background-color: #82d173;
-}*/
+
 
 nav button {display:none;}
     
@@ -34,38 +32,10 @@ nav ul li a {
 } 
 
 
-/*nav ul { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 
-
-  nav li a { 
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
-  }
-*/
-
-/*nav ul { 
-    display: flex; 
-}
-nav ul li { 
-    flex: 1 1 100%;
-}
-
-nav ul li a {
-	padding: .5rem 1rem;
-}
 
 /*----------- MAIN --------------*/
-/*main img {
-    width: 75%;  
-}
-*/
+
 
 /*----------- FOOTER --------------*/
     
