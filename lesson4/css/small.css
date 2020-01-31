@@ -125,9 +125,9 @@ main img {
 
 
 main div {
-    background-color: #f0f0f0;
+    background-color:#E2E2E2;
     height:150px;
-    border: solid 2px #42253b;
+    /*border: solid 2px #42253b;*/
     margin:10px;
 }
 /*----------- FOOTER --------------*/
