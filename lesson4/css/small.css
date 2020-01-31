@@ -37,7 +37,7 @@ header h2 {margin: 0; font-size:1rem;
 
 /*----------- NAVIGATION --------------*/
 #navWrapper, #footerWrapper{
-    background-color: 
+    
     background: #abfaa9; /* Old browsers */
     background: -moz-linear-gradient(top,  #abfaa9 0%, #82d173 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #abfaa9 0%,#82d173 100%); /* Chrome10-25,Safari5.1-6 */
