@@ -70,7 +70,17 @@
             <p>Wind Speed: value</p>
         </section>
         </div>
-                
+
+        <h2>Five Day Forecast</h2>
+        <section class="forecasttable"> 
+            <div class="day1"><h3>Day 1</h3> <img class="forecastimg1" src="images/sunny.png"><p>High Temp</p></div>
+            <div class="day2"><h3>Day 2</h3> <img class="forecastimg2" src="images/almostsunny.png"><p>High Temp</p></div>
+            <div class="day3"><h3>Day 3</h3> <img class="forecastimg3" src="images/rain.png"><p>High Temp</p></div>
+            <div class="day4"><h3>Day 4</h3> <img class="forecastimg4" src="images/thunder.png"><p>High Temp</p></div>
+            <div class="day5"><h3>Day 5</h3> <img class="forecastimg5" src="images/snow.png"><p>High Temp</p></div>
+        </section>
+        
+
         <div class="clearfix">
             <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston main image">
             <h2>Article</h2>
@@ -90,7 +100,6 @@
         <div class="clearfix">
             <img class="smallImgTxt2" src="images/map.JPG" alt="preston weather map">
             <h2>Contact Us</h2>
-        
             <p><span class="strong">Address:</span> 664-666 Frewhill Rd, Preston, ID 83263</p>
             <p><span class="strong">Phone:</span> 555-555-555</p>
             <p><span class="strong">Email:</span>windchillfactor@mail.com </p>
@@ -104,10 +113,10 @@
         <p><script src="js/todaydate.js"></script></p>  
     </footer>
     <script>
-        const today = new Date();
-        console.log(today);
+        const Today = new Date();
+        console.log(Today);
         
-        const dayNumber = today.getDay();
+        const dayNumber = Today.getDay();
         console.log(dayNumber);
 
         const element = document.getElementById("message");
