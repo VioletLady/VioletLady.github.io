@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Wind Chill Factor Weather Website">
+<meta name="author" content="Miriam Aguirre">
+
+<!-- This start file was build by Miriam Aguirre  -->
+<title>Wind Chill Factor: Preston</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+<link rel="icon" href="/lesson4/images/favicon.ico" type="image/x-icon">     
+<script src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/Windylogowstroke.png" alt="logo windy cloud">	
+        <h1>Wind Chill Factor</h1>
+        <h2>We will let you know if you need a jacket</h2>
+    </header>
+</div>    
+    
+<!-- NAVIGATION HERE -->
+<div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide" id="primaryNav">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Heaven</a></li>            
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+</div>    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <h1>Preston Town</h1>
+        
+        <div class="herodiv">
+            <img class ="hero-ph" src="images/misty.jpg" alt="preston main image">
+            <section class="weathersummary">
+            <h3><span class="bottom">Weather summary</span></h3>
+            <p>Currently: value</p>
+            <p>Temperature: value</p>
+            <p>Humidity: value</p>
+            <p>Precipitation: value</p>
+            <p>Wind Speed: value</p>
+        </section>
+        </div>
+                
+        <div class="clearfix">
+            <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston main image">
+            <h2>Article</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.
+                Dictum sit amet justo donec enim diam. Leo duis ut diam quam nulla porttitor massa. 
+                Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Imperdiet nulla malesuada 
+                pellentesque elit. Sem integer vitae justo eget. Sem nulla pharetra diam sit amet nisl 
+                suscipit. </p> 
+        </div>
+
+        <div class="clearfix">
+            <img class="smallImgTxt2" src="images/map.JPG" alt="preston weather map">
+            <h2>Contact Us</h2>
+        
+            <p><span class="strong">Address:</span> 664-666 Frewhill Rd, Preston, ID 83263</p>
+            <p><span class="strong">Phone:</span> 555-555-555</p>
+            <p><span class="strong">Email:</span>windchillfactor@mail.com </p>
+         </div>      
+    </main>
+    
+<!-- FOOTER HERE -->
+<div id="footerWrapper">  
+    <footer>
+        &#9729;  &copy; 2020  | Miriam Aguirre | <a href="#">Terms of Use</a> | windchillfactor@mail.com | 555-555-555 &#9729;
+        <p><script src="js/todaydate.js"></script></p>  
+    </footer>
+    <script>
+        const today = new Date();
+        console.log(today);
+        
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+
+        const element = document.getElementById("message");
+
+        if (dayNumber == 5) {
+            element.classList.add("showme");
+        } else {
+            element.classList.add("hideme");
+        }
+    </script>
+</div> 
+</body>
+</html>
