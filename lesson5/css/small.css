@@ -121,7 +121,7 @@ main h2{color:#4c2c69;
 
 .weathersummary {
     position:absolute;
-    top:2rem;
+    top:1rem;
     left:2rem;
     background: radial-gradient(circle, rgba(171,250,169,1) 0%, rgba(130,209,115,1) 66%);
     border: 1px solid #abfaa9;
@@ -148,7 +148,7 @@ main div {
  display:block;
  text-align: center;
  margin: 0 auto;
- margin-top: 80px;
+ margin-top: 20px;
  box-shadow: 0 0 30px #777;
 }
 
@@ -161,12 +161,16 @@ div#message {background-color:#abfaa9;
 div.showme{display:block;}
 div.hideme{display:none;}
 
-@media (max-width: 40em) {
+
     .hidden {
     display: none;
     }
-    }
-
+ 
+.contactusbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}    
 
 /*----------- FOOTER --------------*/
 footer {

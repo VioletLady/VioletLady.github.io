@@ -75,6 +75,10 @@ td {
 	text-align: center;
 }
 
+.hidden {display:block;}
+
+
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
