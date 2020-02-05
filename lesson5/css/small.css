@@ -156,12 +156,16 @@ main div {
     display:none;
 }
 
-
 div#message {background-color:#abfaa9;
             padding:5px;}
 div.showme{display:block;}
 div.hideme{display:none;}
 
+@media (max-width: 40em) {
+    .hidden {
+    display: none;
+    }
+    }
 
 
 /*----------- FOOTER --------------*/
