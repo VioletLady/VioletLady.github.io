@@ -61,6 +61,8 @@ table, th, td {
     margin: 0 auto;
 }
 
+table {box-shadow: 0px 10px 13px -7px rgb(190, 189, 189), 5px 5px 5px 0px rgba(0,0,0,0.3);}
+
 th {
 	font-weight: 700;
 	font-size: 15px;
