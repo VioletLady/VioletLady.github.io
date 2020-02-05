@@ -51,6 +51,7 @@ nav ul li a {
     background: linear-gradient(to top, rgba(226,226,226,0.6699054621848739) 0%, rgba(130,209,115,0.6895133053221288) 100%);
     font-weight: bold;
     text-shadow: 0.075em 0.08em 0.1em rgb(226, 225, 225);
+    box-shadow: 0 8px 6px -6px black;
  }
 
  /* -------Table styling----------*/
@@ -77,7 +78,11 @@ td {
 
 .hidden {display:block;}
 
-
+.contactusbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}  
 
 /*----------- FOOTER --------------*/
     
