@@ -33,7 +33,6 @@ nav ul li a {
 
 
 
-
 /*----------- MAIN --------------*/
 
 .smallImgTxt, .smallImgTxt2 {
@@ -53,6 +52,26 @@ nav ul li a {
     font-weight: bold;
     text-shadow: 0.075em 0.08em 0.1em rgb(226, 225, 225);
  }
+
+ /* -------Table styling----------*/
+table, th, td {
+	border:1px solid #42253b;
+	border-collapse: collapse;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+
+th {
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #abfaa9;
+}
+
+td {
+	background-color: #E2E2E2;
+	font-size: 13px;
+	text-align: center;
+}
 
 /*----------- FOOTER --------------*/
     

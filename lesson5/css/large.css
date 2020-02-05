@@ -40,21 +40,9 @@ nav ul li a {
 
 /*----------- MAIN --------------*/
 
-.forecasttable {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    border: solid 1px grey;
-    align-items: center;
-    }
-    
-    .day1 { grid-area: 1 / 1 / 3 / 6; border: solid 1px grey;}
-    .day2 { grid-area: 1 / 2 / 3 / 6; border: solid 1px grey;}
-    .day3 { grid-area: 1 / 3 / 3 / 6; border: solid 1px grey;}
-    .day4 { grid-area: 1 / 4 / 3 / 6; border: solid 1px grey;}
-    .day5 { grid-area: 1 / 5 / 3 / 6; border: solid 1px grey;}
+/* -------Table styling----------*/
+
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

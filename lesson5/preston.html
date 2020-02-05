@@ -60,7 +60,7 @@
         <h1>Preston Town</h1>
         
         <div class="herodiv">
-            <img class ="hero-ph" src="images/misty.jpg" alt="preston main image">
+            <img class ="hero-ph" src="images/misty.jpg" alt="preston photo">
             <section class="weathersummary">
             <h3><span class="bottom">Weather summary</span></h3>
             <p>Currently: value</p>
@@ -71,18 +71,38 @@
         </section>
         </div>
 
+        <div class="hidden">
         <h2>Five Day Forecast</h2>
-        <section class="forecasttable"> 
-            <div class="day1"><h3>Day 1</h3> <img class="forecastimg1" src="images/sunny.png"><p>High Temp</p></div>
-            <div class="day2"><h3>Day 2</h3> <img class="forecastimg2" src="images/almostsunny.png"><p>High Temp</p></div>
-            <div class="day3"><h3>Day 3</h3> <img class="forecastimg3" src="images/rain.png"><p>High Temp</p></div>
-            <div class="day4"><h3>Day 4</h3> <img class="forecastimg4" src="images/thunder.png"><p>High Temp</p></div>
-            <div class="day5"><h3>Day 5</h3> <img class="forecastimg5" src="images/snow.png"><p>High Temp</p></div>
-        </section>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Day 1</th>
+                    <th>Day 2</th>
+                    <th>Day 3</th>
+                    <th>Day 4</th>
+                    <th>Day 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/sunny.png" alt="forecastimg1"><br> High Temp &#8457;</td>
+                    <td>
+                        <img src="images/almostsunny.png" alt="forecastimg2"><br> High Temp &#8457; </td>
+                    <td>
+                        <img src="images/rain.png" alt="forecastimg3"><br> High Temp &#8457; </td>
+                    <td>
+                        <img src="images/thunder.png" alt="forecastimg4"><br> High Temp &#8457; </td>
+                    <td>
+                        <img src="images/snow.png" alt="forecastimg5"><br> High Temp &#8457; </td>
+
+        </table>
+        </div>
         
 
         <div class="clearfix">
-            <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston main image">
+            <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston small photo">
             <h2>Article</h2>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

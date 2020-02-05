@@ -110,7 +110,7 @@ main h2{color:#4c2c69;
         padding: .2rem;
        }
 
-main .herodiv{
+.herodiv{
     position:relative;
 }
 
@@ -126,8 +126,7 @@ main .herodiv{
     background: radial-gradient(circle, rgba(171,250,169,1) 0%, rgba(130,209,115,1) 66%);
     border: 1px solid #abfaa9;
     padding: 1rem;
-    box-shadow: 0 8px 6px -6px black;
-    
+    box-shadow: 0 8px 6px -6px black; 
 }
 
 .bottom{
@@ -137,8 +136,7 @@ main .herodiv{
 .strong{
     font-weight: bold;
     color:#4c2c69;
-    background-color: #abfaa9;
-   
+    background-color: #abfaa9;  
 }
 
 
@@ -163,6 +161,8 @@ div#message {background-color:#abfaa9;
             padding:5px;}
 div.showme{display:block;}
 div.hideme{display:none;}
+
+.hidden {display: none;}
 
 /*----------- FOOTER --------------*/
 footer {
