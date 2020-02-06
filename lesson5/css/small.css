@@ -172,7 +172,9 @@ div.hideme{display:none;}
         display: grid;
         grid-template-columns: 1fr 1fr;
     }     
-
+section.forecast {
+    display:none;
+}
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/
