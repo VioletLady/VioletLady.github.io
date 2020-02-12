@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         'Berkshire Swash', 'Helvetica neue'
+         'Berkshire Swash', 'Helvetica neue', 'Lato', 'Prata'
       ]
     }
   });
