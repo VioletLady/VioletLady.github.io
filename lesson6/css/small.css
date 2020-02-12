@@ -1,0 +1,215 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    Font-Family: 'Lato', Sans-Serif;
+    color:#42253b;
+    background-image: url("/lesson6/images/weathergrey.png");
+    background-repeat: repeat;
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper {background-color:#42253b;}
+
+header {
+    padding: .5rem 2%;
+    background-color: #42253b;
+    color:#abfaa9;
+}
+
+header img{float:left; margin-right:10px; width:50px;}
+header h1 {margin: 0; font-size:1.3rem;
+           Font-Family: 'Prata', Serif;
+           background: -webkit-linear-gradient(#abfaa9, #82d173);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }
+header h2 {margin: 0; font-size:1rem;
+            Font-Family: 'Lato', Sans-Serif;
+}
+
+/*----------- NAVIGATION --------------*/
+#navWrapper, #footerWrapper{
+    
+    background: #abfaa9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #abfaa9 0%, #82d173 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #abfaa9 0%,#82d173 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #abfaa9 0%,#82d173 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abfaa9', endColorstr='#82d173',GradientType=0 ); /* IE6-9 */
+    
+}
+
+/*nav {
+    background-color: #82d173;
+}*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #4c2c69;
+    /*padding: .5rem 0;*/
+    padding:.8rem 2%;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid rgba(10, 226, 241, 0.3);
+}
+
+nav ul li a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
+nav ul li.active a {
+    background-color: #42253b;
+    color: #fff;
+}
+
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color:#fff;}
+
+nav ul li a:hover{background-color:rgba(0,0,0,0.4);}
+
+nav ul.hide{display: none;}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main h1{color:#42253b;
+}
+main h2{color:#4c2c69;
+        Font-Family: 'Prata', Serif;
+        background: linear-gradient(90deg, rgba(171,250,169,1) 0%, rgba(226,226,226,0) 64%);
+        padding: .2rem;
+       }
+
+.herodiv{
+    position:relative;
+}
+
+figure.franklin img { 
+    margin:-1em -40px;
+    width:108%;
+}
+
+.weathersummary {
+    position:absolute;
+    top:1rem;
+    left:3rem;   
+    border: 1px solid #abfaa9; 
+    padding: .8rem;
+    box-shadow: 0 8px 6px -6px black; 
+    background: linear-gradient(to top, rgba(226,226,226,0.6699054621848739) 0%, rgba(130,209,115,0.6895133053221288) 100%);
+    font-weight: bold;
+    text-shadow: 0.075em 0.08em 0.1em rgb(226, 225, 225);
+    
+}
+
+.bottom{
+    border-bottom:1px solid #777;
+  }
+
+.strong{
+    font-weight: bold;
+    color:#4c2c69;
+    background-color: #abfaa9;  
+}
+
+
+main div {
+    background-color:#E2E2E2;
+}
+
+.smallImgTxt {
+ display:block;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 20px;
+ box-shadow: 0 0 30px #777;
+}
+
+
+div#message {background-color:#abfaa9;
+            padding:5px;}
+div.showme{display:block;}
+div.hideme{display:none;}
+
+
+.hidden, .map {
+    display: none;
+    }
+ 
+.contactusbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }     
+section.forecast {
+    display:none;
+}
+/*----------- FOOTER --------------*/
+footer {
+    /*background-color:  #82d173;*/
+    padding: 1rem 2%;
+    text-align: center;
+    color: #4c2c69;
+    font-size: 12px;
+    bottom: 0;
+    font-weight: bold;
+    
+}
+
+footer a {
+    color: #4c2c69;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sitename {
+background-color:  #abfaa9;
+Font-Family: 'Prata', Serif;
+}
+
+main #typography img{
+    width:800px;
+
+}
