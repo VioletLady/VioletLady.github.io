@@ -114,9 +114,9 @@ main h2{color:#4c2c69;
     position:relative;
 }
 
-figure.franklin img { 
-    margin:-1em -40px;
-    width:108%;
+picture.franklin img { 
+        width: 100%;
+        margin: 0;
 }
 
 .weathersummary {
