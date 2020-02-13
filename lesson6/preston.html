@@ -60,9 +60,12 @@
         <h1>Preston Town</h1>
         
         <div class="herodiv">
-            <figure class="franklin">
-                <img src="images/franklin_893.jpg" alt="hero photo practice" sizes="100vw" srcset="images/preston_small_350.jpg 350w, images/preston_medium_700.jpg 700w, images/preston_large_900.jpg 900w">
-            </figure>
+            <picture class="franklin">     
+                <source media="(max-width: 350px)" srcset="images/preston_small_350.jpg">
+                <source media="(max-width: 700px)" srcset="images/preston_medium_700.jpg">
+                <source media="(max-width: 900px)" srcset="images/preston_large_900.jpg">
+                <img src="images/franklin_893.jpg" alt="hero photo practice"> 
+                </picture>
             <section class="weathersummary">
             <h3><span class="bottom">Weather summary</span></h3>
             <p>Temperature: <span id="temp">34</span>&deg;</p> 
