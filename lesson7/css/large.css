@@ -49,7 +49,6 @@ nav ul li a {
 }
 .photocap {
     display:block;
-    box-shadow:5px 5px 5px #999;
     transition-property: background;
     transition: all 0.3s ease;
     background-color: #4c2c69;
@@ -59,7 +58,7 @@ nav ul li a {
 div.gallery-gridcontainer>picture>span.photocap:hover{
     background-color:#abfaa9;
     color:#4c2c69;
-    
+    box-shadow:5px 5px 5px #999;
 }
 /* -------Table styling----------*/
 
