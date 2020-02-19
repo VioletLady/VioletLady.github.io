@@ -43,9 +43,6 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.gallery-gridcontainer img{
-    box-shadow:5px 5px 5px #999;
-}
 
 .gallery-gridcontainer img:hover{
     border-radius: 5px 150px;
