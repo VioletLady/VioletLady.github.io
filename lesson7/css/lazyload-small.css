@@ -11,7 +11,8 @@ picture img[data-src] {
 picture img {
 	filter: blur(0em);
 	transition: filter 0.5s;
-	border: 2px dotted purple;
+    border: 3px dotted purple;
+    padding:3px;
 	margin: 5px;
 	min-width: 300px;
 }
