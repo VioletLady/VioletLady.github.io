@@ -213,7 +213,6 @@ footer {
     font-size: 12px;
     bottom: 0;
     font-weight: bold;
-    
 }
 
 footer a {
@@ -227,6 +226,9 @@ footer a:hover {
     color: #abfaa9;
 }
 
+#footerWrapper{
+    margin-top: 15px;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
