@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Wind Chill Factor Weather Website">
+<meta name="author" content="Miriam Aguirre">
+
+<!-- This start file was build by Miriam Aguirre  -->
+<title>Wind Chill Factor: LazyLoad</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- fonts -->
+<!--<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">-->
+<link rel="icon" href="/lesson4/images/favicon.ico" type="image/x-icon">     
+<script src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/Windylogowstroke.png" alt="logo windy cloud">	
+        <h1>Wind Chill Factor</h1>
+        <h2>🐦 Here are some pretty birds &#128038;</h2>
+    </header>
+</div>    
+    
+   
+    
+<!-- CONTENT HERE -->
+    <main>
+        <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <h1>Progressive Loading Images - Lazy Loading</h1>
+        
+        <div class="lazy-gridcontainer">
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird1.jpg" alt="photo bird1"></picture>
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird2.jpg" alt="photo bird2"></picture>
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird3.jpg" alt="photo bird3"></picture>
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird4.jpg" alt="photo bird4"></picture>
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird5.jpg" alt="photo bird5"></picture>
+            <picture><img src="https://via.placeholder.com/300x400.png" data-src="images/bird6.jpg" alt="photo bird6"></picture>
+        </div>
+
+    </main>
+    
+
+<!-- FOOTER HERE -->
+<div id="footerWrapper">  
+    <footer>
+        &#9729;  &copy; 2020  | Miriam Aguirre | <a href="#">Terms of Use</a> | wcf@mail.com | 555-555-555 &#9729;
+        <p><script src="js/todaydate.js"></script></p>  
+    </footer>
+    <script src="js/saturdaymsg.js"></script>
+</div> 
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/imagehandling.js"></script>
+</body>
+</html>
