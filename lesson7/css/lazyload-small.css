@@ -1,0 +1,30 @@
+.lazy-gridcontainer{
+    display:grid;
+    text-align: center;
+    row-gap: 5px;
+}
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	border: 2px dotted purple;
+	margin: 5px;
+	min-width: 300px;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+	align-items: center;
+}
+
+main>h1 {
+    display:block;
+    background-color: purple;
+    color:white;
+    padding:10px;
+}

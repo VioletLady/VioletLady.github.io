@@ -180,19 +180,30 @@ section.forecast {
     text-align: center;
 
 }
-
-.lazy-gridcontainer{
-    display:grid;
-    text-align: center;
-    row-gap: 5px;
-}
-
 .gallery-gridcontainer img{
-        background:transparent;
+        background:#FFFAFA;
         padding:8px;
         border:1px solid #ccc;
-        box-shadow:5px 5px 5px #999;
 }
+
+.photocap {
+    display:none;
+}
+
+.gallery-gridcontainer img:hover{
+    box-shadow:5px 5px 5px #999;
+}
+
+.gallery-gridcontainer>picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+.gallery-gridcontainer>picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	min-width: 300px;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/

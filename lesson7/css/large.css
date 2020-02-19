@@ -39,7 +39,31 @@ nav ul li a {
 } 
 
 /*----------- MAIN --------------*/
+.gallery-gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery-gridcontainer img{
+    box-shadow:5px 5px 5px #999;
+}
 
+.gallery-gridcontainer img:hover{
+    border-radius: 5px 150px;
+}
+.photocap {
+    display:block;
+    box-shadow:5px 5px 5px #999;
+    transition-property: background;
+    transition: all 0.3s ease;
+    background-color: #4c2c69;
+    color:white;
+}
+
+div.gallery-gridcontainer>picture>span.photocap:hover{
+    background-color:#abfaa9;
+    color:#4c2c69;
+    
+}
 /* -------Table styling----------*/
 
 /*----------- FOOTER --------------*/
