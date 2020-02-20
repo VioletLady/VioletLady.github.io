@@ -175,8 +175,9 @@ section.forecast {
 }
 
 .gallery-gridcontainer{
-    display:block;
-    grid-gap: 15px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
     text-align: center;
 
 }
