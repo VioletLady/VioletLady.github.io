@@ -43,17 +43,10 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .gallery-gridcontainer img:hover{
     border-radius: 5px 150px;
     transition: all 0.5s ease;
-}
-.photocap {
-    display:block;
-    transition-property: background;
-    transition: all 1s ease;
-    background-color: #4c2c69;
-    color:white;
+    box-shadow:5px 5px 5px #999;
 }
 
 div.gallery-gridcontainer>picture>span.photocap:hover{
@@ -61,6 +54,8 @@ div.gallery-gridcontainer>picture>span.photocap:hover{
     color:#4c2c69;
     box-shadow:5px 5px 5px #999;
 }
+.photocap {
+    display:block;}
 /* -------Table styling----------*/
 
 /*----------- FOOTER --------------*/

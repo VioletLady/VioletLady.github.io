@@ -176,23 +176,27 @@ section.forecast {
 
 .gallery-gridcontainer{
     display:block;
-    row-gap: 15px;
+    grid-gap: 15px;
     text-align: center;
 
 }
-.gallery-gridcontainer img{
-        background:#FFFAFA;
-        padding:8px;
-        border:1px solid #ccc;
+.gallery-gridcontainer img{ 
+        border:8px solid #FFFAFA;
+        vertical-align: top;
+        width: 100%;
+	    
 }
+
 
 .photocap {
-    display:none;
+    display:block;
+    transition-property: background;
+    transition: all 1s ease;
+    background-color: #FFFAFA;
+    color:purple;
+    padding:5px 0;
 }
 
-.gallery-gridcontainer img:hover{
-    box-shadow:5px 5px 5px #999;
-}
 
 .gallery-gridcontainer>picture img[data-src] {
 	filter: blur(0.2em);
