@@ -1,3 +1,5 @@
+
+
 .lazy-gridcontainer{
     display:grid;
     text-align: center;
@@ -18,14 +20,20 @@ picture img {
 }
 
 body{
+    font-family: 'Lato', Sans-Serif;
     text-align: center;
-    justify-content: center;
-	align-items: center;
 }
 
+main{
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    align-items:center;
+}
 main>h1 {
-    display:block;
+    padding:15px 30px;
     background-color: purple;
-    color:white;
-    padding:10px;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    color: #ffffff;
+    font-family: 'Prata', Serif;
 }
