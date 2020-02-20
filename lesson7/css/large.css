@@ -49,7 +49,7 @@ nav ul li a {
     box-shadow:5px 5px 5px #999;
 }
 
-div.gallery-gridcontainer>picture>span.photocap:hover{
+div.gallery-gridcontainer>div>div.photocap:hover{
     background-color:#abfaa9;
     color:#4c2c69;
     box-shadow:5px 5px 5px #999;

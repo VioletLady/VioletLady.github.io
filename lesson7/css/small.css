@@ -199,11 +199,11 @@ section.forecast {
 }
 
 
-.gallery-gridcontainer>picture img[data-src] {
+.gallery-gridcontainer>div img[data-src] {
 	filter: blur(0.2em);
 }
 
-.gallery-gridcontainer>picture img {
+.gallery-gridcontainer>div img {
 	filter: blur(0em);
 	transition: filter 0.5s;
 	min-width: 300px;
