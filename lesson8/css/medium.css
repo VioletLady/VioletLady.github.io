@@ -1,0 +1,122 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    /*header img{width:60px;}
+    header h1{font-size:2rem;}
+    header h2{font-size:1rem;}
+
+
+/*----------- NAVIGATION --------------*/
+
+
+nav button {display:none;}
+    
+nav ul.hide {display:block;}
+
+nav ul {margin-left: 2%;}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a {
+    border:none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;
+} 
+
+
+
+/*----------- MAIN --------------*/
+
+.smallImgTxt, .map {
+    float:right;
+    margin: 0px 0px 15px 15px;
+    display:block;
+    vertical-align: middle;
+    box-shadow: 0 0 30px #777;
+}
+.hero-ph { 
+    margin: 0;
+    width: 100%;
+ }
+
+ .weathersummary{
+    background: linear-gradient(to top, rgba(226,226,226,0.6699054621848739) 0%, rgba(130,209,115,0.6895133053221288) 100%);
+    font-weight: bold;
+    text-shadow: 0.075em 0.08em 0.1em rgb(226, 225, 225);
+    box-shadow: 0 8px 6px -6px black;
+ }
+
+ /* -------Table styling----------*/
+
+ /*table, th, td {
+	border:1px solid #42253b;
+	border-collapse: collapse;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+
+table {
+    box-shadow: 0px 10px 13px -7px rgb(190, 189, 189), 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+th {
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #abfaa9;
+}
+
+td {
+	background-color: #E2E2E2;
+	font-size: 13px;
+	text-align: center;
+}
+*/
+.hidden {display:block;}
+
+.contactusbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}  
+
+.map {
+    display:grid;
+ }
+
+section.forecast{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 0px 10px 13px -7px rgb(190, 189, 189), 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+section.forecast div{
+    text-align:center;
+    border: 1px solid grey;
+}
+section.forecast div h3{
+    background-color: #abfaa9;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.gallery-gridcontainer{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    row-gap: 15px;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+
+}
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
