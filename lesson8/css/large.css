@@ -56,6 +56,11 @@ div.gallery-gridcontainer>div>div.photocap:hover{
 }
 .photocap {
     display:block;}
+
+.slider {
+        width:20%;
+      
+    }    
 /* -------Table styling----------*/
 
 /*----------- FOOTER --------------*/

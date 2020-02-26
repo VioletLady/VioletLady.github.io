@@ -290,7 +290,7 @@ form label.top input:required:valid{
 
 .slider {
     -webkit-appearance: none;
-    width:20%;
+    width:90%;
     height:5px;
     background: #4c2c69;
 }
@@ -301,6 +301,7 @@ form label.top input:required:valid{
 
 fieldset>textarea{
     width:100%;
+    height:100px ;
 }
 /*----------- FOOTER --------------*/
 footer {
