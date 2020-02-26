@@ -27,7 +27,7 @@ td {
 table {
     table-layout: fixed;
     width: 100%; 
-    box-shadow: 6px 8px 20px 2px #628ca6;  
+    box-shadow: 6px 8px 20px 1px #628ca6;  
   }
 
 th,
