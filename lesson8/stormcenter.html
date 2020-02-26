@@ -66,11 +66,13 @@
         <h2>Report a storm or unusual weather event in your area</h2>       
         <form method="get" action="thanks.html">
             <fieldset>
+                
                 <legend>Personal Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Full Name* <input type="text" name="fname" required></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Zip Code* <input type="number" name="zipcode" required></label>
+                
             </fieldset>
 
             <fieldset>
@@ -130,7 +132,7 @@
 
             <fieldset>
                 <legend>Additional Information</legend>
-                <textarea placeholder="Type in here your comments" cols="110" rows="3"></textarea>
+                <textarea placeholder="Type in here your comments"></textarea>
             </fieldset>
             <input type="submit" value="Send my weather report" class="submitBtn">
         </form>

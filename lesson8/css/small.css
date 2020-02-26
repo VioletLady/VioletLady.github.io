@@ -299,6 +299,9 @@ form label.top input:required:valid{
     padding-left: 5px;
 }
 
+fieldset>textarea{
+    width:100%;
+}
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/
