@@ -293,11 +293,13 @@ form label.top input:required:valid{
     font-size: 1rem;
 }
 
-.slider {
-    -webkit-appearance: none;
+#rating.slider {
+-webkit-appearance: none;
     width:90%;
-    height:5px;
+    height:1px;
     background: #4c2c69;
+    color:#82d173;
+    display:block;
 }
 
 #ratingvalue{

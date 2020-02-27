@@ -74,14 +74,15 @@
                 
                 <label class="top">Storm Date<input type="date" name="stormDate"></label>
                 
-                <label class="top">Storm Type<input list="stormlist" name="stormType"></label>
-			    <datalist id="stormlist">
-				<option value="Flash Flood">
-				<option value="Hail">
-				<option value="Hurricane">
-				<option value="Thunderstorm">
-				<option value="Tornado">
-			    </datalist>
+                <label class="top">Storm Type
+                    <select name="stormType">
+                        <option value="">Select Type &#9662;</option>
+                        <option value="flashflood">Flash Flood</option>
+                        <option value="hail">Hail</option>
+                        <option value="hurricane">Hurricane</option>
+                        <option value="thunderstorm">Thunder Storm</option>
+                        <option value="tornado">Tornado</option>
+                    </select>
 
                 <label class="top">Storm Region
                     <select name="region">

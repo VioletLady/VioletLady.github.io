@@ -57,7 +57,7 @@ div.gallery-gridcontainer>div>div.photocap:hover{
 .photocap {
     display:block;}
 
-.slider {
+#rating.slider {
         width:20%;
       
     }    
