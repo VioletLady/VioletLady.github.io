@@ -304,6 +304,16 @@ form label.top input:required:valid{
     padding-left: 5px;
 }
 
+.comments{
+    font-size: small;   
+    display:block;
+}
+
+label.comments>textarea{
+    display:block;
+    margin-top:10px;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/
