@@ -1,0 +1,84 @@
+/*----------- SMALL and UP VIEW --------------*/
+h1, h2 {
+    font-family: 'Sofia', cursive, Georgia, 'Times New Roman', Times, serif;
+    color:#d4af37;
+}
+header img {
+    display:none;
+}
+
+h1{
+    font-size:2.5em;
+    background-color: black;
+    display:inline-block;
+    padding:20px;
+}
+
+body{   
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    color:#6fbadf;
+    text-align: center;
+    background-color:#868686;
+    margin:10px;
+    
+}
+.cards p{
+    line-height: 0.3em;
+    font-size: .9em;
+}
+div.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 10px;
+    box-shadow: 0 0 30px rgb(97, 97, 97);
+    
+}
+
+div.cards>section{
+    border: solid 5px #6fbadf;
+    border-radius: 5px;
+    background-image: url("/lesson9/images/spikes.png");
+    background-repeat: repeat;
+}
+.cards img {
+    width:10em;
+    box-shadow: 0 0 10px rgb(97, 97, 97);
+}
+/*----------- MEDIUM VIEW and UP --------------*/
+@media only screen and (min-width: 35rem) {
+    div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+
+    header img{
+    display:inline-block;
+    min-width:620px;
+    height:150px;
+    position:absolute;
+    }
+
+    h1{
+        font-size:3.5em;
+        background-color: black;
+        display:inline-block;
+        padding: 10px 30px;
+        position:relative;
+        left:50px;
+        top:-16px;
+    }
+
+
+
+}
+/*----------- LARGE VIEW only --------------*/
+@media only screen and (min-width: 64rem) {
+    div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+        
+
+
+}
