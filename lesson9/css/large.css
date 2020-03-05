@@ -61,7 +61,46 @@ div.gallery-gridcontainer>div>div.photocap:hover{
         width:20%;
       
     } 
+/*----------- HOME PAGE --------------*/
+   
+    div.homecards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 10px;
+        grid-column-gap: 10px;
+        margin-top: 1em;
+    }
+    
+    div.homecards>section{
+        border: double 4px #4c2c69;
+        /*display:block;
+        padding:0 10px;*/
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    div.homecards>section>img{
+        display: block;
+        border: 0;
+        width: 100%;
+        height: auto;
+            
+       /*width: auto; /* to keep proportions */
+        /*height: auto; /* to keep proportions */
+        /*max-width: 100%; /* not to stand out from div */
+        /*max-height: 100%; /* not to stand out from div */
+        /*margin: auto auto 0; /* position to bottom and center */
+    }
+    
+    div.homecards p, div.homecards h2, div.homecards h3{
+        padding:0 1em;
+    }
 
+    div.homecards h2{
+        background: linear-gradient(90deg, rgba(171,250,169,1) 0%, rgba(226,226,226,0) 64%);
+    }
+    
 /* -------Table styling----------*/
 
 /*----------- FOOTER --------------*/

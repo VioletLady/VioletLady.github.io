@@ -319,6 +319,41 @@ label.comments>textarea{
     background: rgb(130,209,115);
     background: linear-gradient(0deg, rgba(130,209,115,0.7042593795262027) 0%, rgba(226,226,226,0.687405446941933) 43%);
 }
+
+
+div.homecards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.homecards>section{
+    display:block;
+    border: double 4px #4c2c69;
+    width: 80%;
+    margin-top:20px;
+}
+
+div.homecards>section>img{
+    display: block;
+	border: 0;
+	width: 100%;
+    height: 100.1%;
+
+   /*width: auto; /* to keep proportions */
+    /*height: auto; /* to keep proportions */
+    /*max-width: 100%; /* not to stand out from div */
+    /*max-height: 100%; /* not to stand out from div */
+    /*margin: auto auto 0; /* position to bottom and center */
+}
+
+div.homecards p, div.homecards h2, div.homecards h3{
+    padding:0 1em;
+}
+div.homecards p{
+    line-height: .05em;
+}
+
+
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/
