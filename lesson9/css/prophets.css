@@ -46,6 +46,7 @@ div.cards>section{
 .cards img {
     width:10em;
     box-shadow: 0 0 10px rgb(97, 97, 97);
+    width:200px;
 }
 /*----------- MEDIUM VIEW and UP --------------*/
 @media only screen and (min-width: 35rem) {

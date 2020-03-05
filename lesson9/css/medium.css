@@ -92,19 +92,19 @@
         #rating.slider {
             width:30%;
         }
-        div.homecards section {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .specialFloat {
-            grid-area: 1 / 2;
-        }
-        div.homecards section img {
-            grid-row: 1 / 6;
-        }
-        div.homecards :nth-child(2) :nth-child(6) {
-            grid-column: 2 / 3;
-        }
+        
+    div.homecards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    div.homecards section img {
+        grid-row: 1 / 6;
+    }
+    div.homecards :nth-child(2) :nth-child(6) {
+        grid-column: 2 / 3;
+    }
+
  
 /*----------- FOOTER --------------*/
     
