@@ -5,15 +5,14 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
-        const towns = jsonObject['towns'];
-        console.log(towns);
+        //console.table(jsonObject); // temporary checking for valid response and data parsing
+        const idahoTowns = jsonObject['towns'];
+        //console.log(towns);
 
-
-        for (let i=0; i<towns.length; i++){
-            if(towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"){
+        for (let i=0; i<idahoTowns.length; i++){
+            if(idahoTowns[i].name == "Fish Haven" || idahoTowns[i].name == "Preston" || idahoTowns[i].name == "Soda Springs"){
             let card = document.createElement('section');
-            console.log(towns);    
+            //console.log(towns);    
 
             let h2 = document.createElement('h2');
             let motto = document.createElement('h3');
@@ -22,18 +21,14 @@ fetch(requestURL)
             let rainfall = document.createElement('p');
             let img = document.createElement('img');
 
-            let link = towns[i].name.replace(/\s/g, '') + '.html'
-            card.onclick = function() { window.open(link); } //to link the imgs in home to their respective pages    
+            h2.textContent = idahoTowns[i].name;
+            motto.textContent = idahoTowns[i].motto;
+            year.textContent = "Year Founded: " + idahoTowns[i].yearFounded;
+            population.textContent = "Population: " + idahoTowns[i].currentPopulation;
+            rainfall.textContent = "Annual Rainfall: " + idahoTowns[i].averageRainfall;
 
-
-            h2.textContent = towns[i].name;
-            motto.textContent = towns[i].motto;
-            year.textContent = "Year Founded: " + towns[i].yearFounded;
-            population.textContent = "Population: " + towns[i].currentPopulation;
-            rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
-
-            img.setAttribute('src', 'images/' + towns[i].photo);
-            img.setAttribute('alt', towns[i].name);
+            img.setAttribute('src', 'images/' + idahoTowns[i].photo);
+            img.setAttribute('alt', idahoTowns[i].name);
 
             card.appendChild(h2);
             card.appendChild(motto);

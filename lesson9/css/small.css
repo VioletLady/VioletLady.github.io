@@ -329,7 +329,7 @@ div.homecards{
 div.homecards>section{
     display:block;
     border: double 4px #4c2c69;
-    width: 80%;
+    width: 100%;
     margin-top:20px;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     /*box-shadow:-5px -5px 10px;*/
