@@ -108,6 +108,7 @@ main h2{color:#4c2c69;
         Font-Family: 'Prata', Serif;
         background: linear-gradient(90deg, rgba(171,250,169,1) 0%, rgba(226,226,226,0) 64%);
         padding: .2rem;
+        padding-left: 2%;
        }
 
 .herodiv{
