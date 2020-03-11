@@ -1,0 +1,39 @@
+
+
+.lazy-gridcontainer{
+    display:grid;
+    text-align: center;
+    row-gap: 5px;
+}
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+    border: 15px groove purple;
+    padding:3px;
+	margin: 5px;
+	min-width: 300px;
+}
+
+body{
+    font-family: 'Lato', Sans-Serif;
+    text-align: center;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    align-items:center;
+}
+main>h1 {
+    padding:15px 30px;
+    background-color: purple;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    color: #ffffff;
+    font-family: 'Prata', Serif;
+}
