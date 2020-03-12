@@ -31,7 +31,6 @@ fetch(apiURL)
     document.getElementById("windSpeed").innerHTML=weatherInfo.wind.speed;
     document.getElementById("humidity").innerHTML=weatherInfo.main.humidity;
     
-   
 
 	const iconcode = weatherInfo.weather[0].icon;
 	console.log(iconcode);

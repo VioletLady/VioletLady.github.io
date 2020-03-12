@@ -119,7 +119,12 @@ main h2{color:#4c2c69;
 picture.franklin img { 
         width: 100%;
         margin: 0;
+    
 }
+
+.franklin img{
+box-shadow: 2px 8px 6px -6px black; }
+
 
 .weathersummary {
     position:absolute;
@@ -149,7 +154,7 @@ main div {
     background-color:#E2E2E2;
 }
 
-.smallImgTxt {
+.smallImgTxt, .smallImgTxt2 {
  display:block;
  text-align: center;
  margin: 0 auto;
