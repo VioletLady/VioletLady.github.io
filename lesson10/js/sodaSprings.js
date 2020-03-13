@@ -1,20 +1,10 @@
-
 const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83276,us&appid=2476e5f44826f4acbbad02fe01f1a66e&units=imperial";
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
         console.log(weatherInfo);
-    
-    
-    //const tempNumber = parseFloat(document.getElementById("temp").textContent);
-    //console.log(tempNumber);
-    //const tempNumber = parseFloat(document.getElementById("temp").innerHTML=weatherInfo.main.temp);
 
-    //const speedNumber = parseFloat(document.getElementById("speed").textContent);
-    //console.log(speedNumber);
-
-    //let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow (speedNumber, 0.16)) + (0.4275 * tempNumber *Math.pow(speedNumber, 0.16));
     let windchill = 35.74 + (0.6215 * weatherInfo.main.temp) - (35.75 * Math.pow(weatherInfo.wind.speed, 0.16)) + (0.4275 * weatherInfo.main.temp * Math.pow(weatherInfo.wind.speed, 0.16));
 
     //console.log(windchill);
@@ -32,8 +22,6 @@ fetch(apiURL)
     document.getElementById("windSpeed").innerHTML=weatherInfo.wind.speed;
     document.getElementById("humidity").innerHTML=weatherInfo.main.humidity;
     
-   
-
 	const iconcode = weatherInfo.weather[0].icon;
 	console.log(iconcode);
 	
@@ -86,11 +74,14 @@ fetch(apiURL5forecast)
 
                 let theTemp = document.createElement("p");
                 theTemp.textContent = "Highest: " + weatherInf.list[i].main.temp + "\xB0";
-
+                
                 let iconcode = weatherInf.list[i].weather[0].icon;
                 let iconPath = "//openweathermap.org/img/w/" + iconcode + ".png";
+                const desc = weatherInf.list[i].weather[0].description;
                 let theIcon = document.createElement("img");
                 theIcon.src = iconPath;
+                theIcon.setAttribute('src', iconPath);
+                theIcon.setAttribute('alt', desc);
 
                 let theDay = document.createElement("div");
                 theDay.appendChild(theDayName);
