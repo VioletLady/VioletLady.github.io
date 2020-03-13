@@ -5,15 +5,6 @@ fetch(apiURL)
     .then((weatherInfo) => {
         console.log(weatherInfo);
     
-    
-    //const tempNumber = parseFloat(document.getElementById("temp").textContent);
-    //console.log(tempNumber);
-    //const tempNumber = parseFloat(document.getElementById("temp").innerHTML=weatherInfo.main.temp);
-
-    //const speedNumber = parseFloat(document.getElementById("speed").textContent);
-    //console.log(speedNumber);
-
-    //let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow (speedNumber, 0.16)) + (0.4275 * tempNumber *Math.pow(speedNumber, 0.16));
     let windchill = 35.74 + (0.6215 * weatherInfo.main.temp) - (35.75 * Math.pow(weatherInfo.wind.speed, 0.16)) + (0.4275 * weatherInfo.main.temp * Math.pow(weatherInfo.wind.speed, 0.16));
 
     //console.log(windchill);
@@ -93,7 +84,7 @@ fetch(apiURL5forecast)
                 theIcon.setAttribute('src', iconPath);
                 theIcon.setAttribute('alt', desc);
 
-                
+
                 let theDay = document.createElement("div");
                 theDay.appendChild(theDayName);
                 theDay.appendChild(theTemp);
