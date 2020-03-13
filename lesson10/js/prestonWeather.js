@@ -87,9 +87,13 @@ fetch(apiURL5forecast)
 
                 let iconcode = weatherInf.list[i].weather[0].icon;
                 let iconPath = "//openweathermap.org/img/w/" + iconcode + ".png";
+                const desc = weatherInf.list[i].weather[0].description;
                 let theIcon = document.createElement("img");
                 theIcon.src = iconPath;
+                theIcon.setAttribute('src', iconPath);
+                theIcon.setAttribute('alt', desc);
 
+                
                 let theDay = document.createElement("div");
                 theDay.appendChild(theDayName);
                 theDay.appendChild(theTemp);
