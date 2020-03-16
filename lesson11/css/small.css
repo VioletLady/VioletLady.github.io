@@ -372,6 +372,23 @@ section.weathersummary>p>img#icon {
    vertical-align: middle;
 }
 
+body>main>section.calendar{
+	color: #abfaa9;
+	border: 7px inset #abfaa9;
+	text-align: center;
+    width: 350px;
+    height: auto;
+    margin: 1em auto;
+    background-color: #42253b;
+}
+
+section.calendar>hr{
+    background-color: #abfaa9;
+    height: 1px;}
+
+main>section.calendar>div.events{
+    background-color: #42253b;
+}
 
 /*----------- FOOTER --------------*/
 footer {
