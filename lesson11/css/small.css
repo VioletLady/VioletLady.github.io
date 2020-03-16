@@ -384,7 +384,8 @@ body>main>section.calendar{
 
 section.calendar>hr{
     background-color: #abfaa9;
-    height: 1px;}
+    height: 1px;
+    width:75%;}
 
 main>section.calendar>div.events{
     background-color: #42253b;
