@@ -1,0 +1,438 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    Font-Family: 'Lato', Sans-Serif;
+    color:#42253b;
+    background-image: url("/lesson10/images/weathergrey.png");
+    background-repeat: repeat;
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper {background-color:#42253b;}
+
+header {
+    padding: .5rem 2%;
+    background-color: #42253b;
+    color:#abfaa9;
+}
+
+header img{float:left; margin-right:10px; width:50px;}
+header h1 {margin: 0; font-size:1.3rem;
+           Font-Family: 'Prata', Serif;
+           background: -webkit-linear-gradient(#abfaa9, #82d173);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }
+header h2 {margin: 0; font-size:1rem;
+            Font-Family: 'Lato', Sans-Serif;
+}
+
+/*----------- NAVIGATION --------------*/
+#navWrapper, #footerWrapper{
+    
+    background: #abfaa9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #abfaa9 0%, #82d173 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #abfaa9 0%,#82d173 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #abfaa9 0%,#82d173 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abfaa9', endColorstr='#82d173',GradientType=0 ); /* IE6-9 */
+    
+}
+
+/*nav {
+    background-color: #82d173;
+}*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #4c2c69;
+    /*padding: .5rem 0;*/
+    padding:.8rem 2%;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid rgba(10, 226, 241, 0.3);
+}
+
+nav ul li a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
+nav ul li.active a {
+    background-color: #42253b;
+    color: #fff;
+}
+
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color:#fff;}
+
+nav ul li a:hover{background-color:rgba(0,0,0,0.4);}
+
+nav ul.hide{display: none;}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main h1{color:#42253b;
+}
+main h2{color:#4c2c69;
+        Font-Family: 'Prata', Serif;
+        background: linear-gradient(90deg, rgba(171,250,169,1) 0%, rgba(226,226,226,0) 64%);
+        padding: .2rem;
+        padding-left: 2%;
+       }
+
+.herodiv{
+    position:relative;
+    margin-bottom: 8em;
+}
+
+picture.franklin img { 
+        width: 100%;
+        margin: 0;
+    
+}
+
+.franklin img{
+box-shadow: 2px 8px 6px -6px black; }
+
+
+.weathersummary {
+    position:absolute;
+    top:2rem;
+    left:4rem;   
+    border: 1px solid #abfaa9; 
+    padding: .8rem;
+    box-shadow: 0 8px 6px -6px black; 
+    background: linear-gradient( 135deg, #abfaa9 10%, #82d173 100%);
+    font-weight: bold;
+    text-shadow: 0.075em 0.08em 0.1em rgb(226, 225, 225);
+    
+}
+
+.bottom{
+    border-bottom:1px solid #777;
+  }
+
+.strong{
+    font-weight: bold;
+    color:#4c2c69;
+    background-color: #abfaa9;  
+}
+
+
+main div {
+    background-color:#E2E2E2;
+}
+
+.smallImgTxt, .smallImgTxt2 {
+ display:block;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 20px;
+ box-shadow: 0 0 30px #777;
+}
+
+
+div#message {background-color:#abfaa9;
+            padding:5px;}
+div.showme{display:block;}
+div.hideme{display:none;}
+
+
+.hidden {
+    display: none;
+}
+.map{
+    display:none;
+}
+#forecast {
+    display:none;
+}
+.contactusbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+.gallery-gridcontainer{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    text-align: center;
+
+}
+.gallery-gridcontainer img{ 
+        border:8px solid #FFFAFA;
+        vertical-align: top;
+        width: 100%;
+	    
+}
+.photocap {
+    display:block;
+    transition-property: background;
+    transition: all 1s ease;
+    background-color: #FFFAFA;
+    color:purple;
+    padding:5px 0;
+}
+
+.gallery-gridcontainer>div img[data-src] {
+	filter: blur(0.2em);
+}
+
+.gallery-gridcontainer>div img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	min-width: 300px;
+}
+
+.thanks img{
+    border:8px solid #FFFAFA;
+    transition: 0.4s ease-in-out;
+}
+
+.thanks img:hover{
+    transform: rotate(3deg);
+    width: 580px;
+}
+
+.thanks figcaption{
+    font-size: small;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #82d173;
+    border-radius:10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color:#4c2c69;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display:block;
+    padding-top: 1rem;
+    color: #42253b;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display:block;
+    font-size:1rem;
+    border: solid 1px #4c2c69;
+    border-radius: 4px;
+    padding:.75rem;
+    color: #555;
+    width:100%;
+    max-width:20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display:block;
+    padding:.75rem 0;
+    color: #42253b;
+}
+
+form input.submitBtn{
+    border:none;
+    background-color:#42253b;
+    border-radius: 1rem;
+    padding:.75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width:95%;
+    max-width: 20rem;
+    color:white;
+    cursor: pointer;
+}
+
+form input.submitBtn:hover{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4c2c69;
+}
+form label.top input:required {
+    border-left: #4c2c69 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left:#82d173 solid 6px;
+}
+
+.flexly {
+	display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    color: #42253b;
+    font-size: 1rem;
+}
+
+#rating.slider {
+-webkit-appearance: none;
+    width:90%;
+    height:3px;
+    background: #4c2c69;
+    color:#82d173;
+    display:block;
+}
+
+#ratingvalue{
+    padding-left: 5px;
+}
+
+.comments{
+    font-size: small;   
+    display:block;
+}
+
+label.comments>textarea{
+    display:block;
+    margin-top:10px;
+    border-radius: 4px;
+    border-color: #42253b;
+    background: rgb(130,209,115);
+    background: linear-gradient(0deg, rgba(130,209,115,0.7042593795262027) 0%, rgba(226,226,226,0.687405446941933) 43%);
+}
+
+
+div.homecards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.homecards>section{
+    display:block;
+    border: double 4px #4c2c69;
+    width: 100%;
+    margin-top:20px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    /*box-shadow:-5px -5px 10px;*/
+}
+
+div.homecards>section:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+div.homecards>section>img{
+    display: block;
+	border: 0;
+	width: 100%;
+    height: 100.1%;
+    text-align: center;
+
+   /*width: auto; /* to keep proportions */
+    /*height: auto; /* to keep proportions */
+    /*max-width: 100%; /* not to stand out from div */
+    /*max-height: 100%; /* not to stand out from div */
+    /*margin: auto auto 0; /* position to bottom and center */
+}
+
+div.homecards p, div.homecards h2, div.homecards h3{
+    padding:0 1em;
+}
+div.homecards p{
+    line-height: .05em;
+}
+
+section.weathersummary>p>img#icon {
+   width:20px;
+   display: inline;
+   vertical-align: middle;
+}
+
+body>main>section.calendar{
+	color: #abfaa9;
+	border: 7px inset #abfaa9;
+	text-align: center;
+    width: 350px;
+    height: auto;
+    margin: 1em auto;
+    background-color: #42253b;
+}
+
+section.calendar>hr{
+    background-color: #abfaa9;
+    height: 1px;
+    width:75%;}
+
+main>section.calendar>div.events{
+    background-color: #42253b;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    /*background-color:  #82d173;*/
+    padding: 1rem 2%;
+    text-align: center;
+    color: #4c2c69;
+    font-size: 12px;
+    bottom: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #4c2c69;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
+
+#footerWrapper{
+    margin-top: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sitename {
+background-color:  #abfaa9;
+Font-Family: 'Prata', Serif;
+}
+
+main #typography img{
+    width:800px;
+
+}
+
+/*----------- FOOTER --------------*/
+    

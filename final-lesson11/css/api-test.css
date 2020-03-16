@@ -1,0 +1,147 @@
+/*---------------------SMALL--------------------*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    color: #483D8B;
+    Font-Family: 'Lato', Sans-Serif;
+}
+h1, h2 {
+    Font-Family: 'Prata', Serif;
+    color: #483D8B;
+}
+
+main{
+    background-color: oldlace;
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: palevioletred;
+    
+}
+header h1 {margin: 0;
+    color:oldlace;}
+header h2 {margin: 0; font-weight: normal;
+    color:oldlace;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: DarkTurquoise;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    width: 25%;
+}
+nav ul li a {
+    display: block;
+    background-color: DarkTurquoise;
+    color: #483D8B;
+    border-left: 1px solid #483D8B;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+nav ul li:first-child a {border-left: none;}
+
+nav ul li a:hover {
+    background-color: Thistle;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: purple;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: Thistle;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-------------------MEDIUM--------------------*/
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    
+    
+    
+    /*----------- NAVIGATION --------------*/
+        nav ul {margin-left: 2%;}
+        nav ul li {width: auto;}
+        nav ul li:first-child a {border-left: 1px solid #483D8B;}
+        nav ul li:last-child a {border-right: 1px solid #483D8B;}
+        nav ul li a{padding: .5rem 1rem;}
+    
+    
+    /*----------- MAIN --------------*/
+    
+    
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */
+
+    /*-----------------------LARGE----------------------*/
+    /* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

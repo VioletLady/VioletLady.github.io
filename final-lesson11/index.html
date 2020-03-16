@@ -6,7 +6,7 @@
 <meta name="author" content="Miriam Aguirre">
 
 <!-- This start file was build by Miriam Aguirre  -->
-<title>Wind Chill Factor: Preston</title>
+<title>Wind Chill Factor: HOME</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -25,7 +25,7 @@
 <!-- fonts -->
 <!--<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">-->
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon">     
+<link rel="icon" href="/lesson4/images/favicon.ico" type="image/x-icon">     
 <script src="js/responsiveMenu.js" defer></script>
 
 </head>
@@ -44,8 +44,8 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul class="hide" id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="sodaSprings.html">Soda Springs</a></li>
             <li><a href="fishHaven.html">Fish Haven</a></li>            
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -55,36 +55,16 @@
 </div>    
     
 <!-- CONTENT HERE -->
-    <main>
-        <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
-        <h1>Preston Town</h1>
-        
-        <div class="herodiv">
-            <picture class="franklin">     
-                <source media="(max-width: 350px)" srcset="images/p_small_350.jpg">
-                <source media="(max-width: 700px)" srcset="images/p_medium_700.jpg">
-                <source media="(max-width: 900px)" srcset="images/p_large_900.jpg">
-                <img src="images/family_893.jpg" alt="hero photo practice"> 
-                </picture>
-            <section class="weathersummary">
-            <h3><span class="bottom">Weather summary</span></h3>
-            <p>Condition: <span id="weather">xx</span>
-            <img src="https://openweathermap.org/img/w/" alt="small preview currently weather summary" id="icon"></p>
-            <p>Temperature: <span id="current">00</span>&deg;</p> 
-            <p>Humidity: <span id="humidity">00</span>%</p>
-            <p>Wind Speed: <span id="windSpeed">00</span>mph</p>
-            <p>Wind Chill: <span id="chill">message</span></p>
+    <main class="home">
+        <h1>Welcome to our weather site.</h1>
+        <div class="homecards"></div>
+        <section class="homewireframe">
+        <h2>Wireframes</h2>
+        <a href="https://wireframe.cc/pro/pp/30399fcd9319856"  target="_blank" >Wireframes sizes Large, Medium and Small</a>
         </section>
-        </div>
-
-
-        <h2 class="hidden" id="townName">Five Day Forecast</h2>
-     
-        <section id="forecast"></section>
- 
         <div class="clearfix">
             
-            <h2>Article</h2>
+            <h2>Important Weather News</h2>
             <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston small photo">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -117,19 +97,16 @@
          </div>      
     </main>
     
-
 <!-- FOOTER HERE -->
 <div id="footerWrapper">  
     <footer>
         &#9729;  &copy; 2020  | Miriam Aguirre | <a href="#">Terms of Use</a> | wcf@mail.com | 555-555-555 &#9729;
         <p><script src="js/todaydate.js"></script></p>  
     </footer>
-    <script src="js/saturdaymsg.js"></script>
+  
 </div> 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontload.js"></script>
-<script src="js/prestonWeather.js"></script>
-
-
+<script src="js/home.js"></script>
 </body>
 </html>
