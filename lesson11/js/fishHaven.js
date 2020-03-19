@@ -3,7 +3,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83287,us&appid=247
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
-        console.log(weatherInfo);
+        //console.log(weatherInfo);
     
 
     //let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow (speedNumber, 0.16)) + (0.4275 * tempNumber *Math.pow(speedNumber, 0.16));
