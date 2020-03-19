@@ -3,7 +3,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83276,us&appid=247
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
-        console.log(weatherInfo);
+        //console.log(weatherInfo);
 
     let windchill = 35.74 + (0.6215 * weatherInfo.main.temp) - (35.75 * Math.pow(weatherInfo.wind.speed, 0.16)) + (0.4275 * weatherInfo.main.temp * Math.pow(weatherInfo.wind.speed, 0.16));
 
@@ -23,10 +23,10 @@ fetch(apiURL)
     document.getElementById("humidity").innerHTML=weatherInfo.main.humidity;
     
 	const iconcode = weatherInfo.weather[0].icon;
-	console.log(iconcode);
+	//console.log(iconcode);
 	
 	const icon_path="//openweathermap.org/img/w/" + iconcode + ".png";
-	console.log(icon_path);
+	//console.log(icon_path);
 		
 	document.getElementById("icon").src = icon_path;
 
@@ -50,7 +50,7 @@ const apiURL5forecast = "//api.openweathermap.org/data/2.5/forecast?zip=83276,us
 fetch(apiURL5forecast)
     .then((response) => response.json())
     .then((weatherInf) => {
-        console.log(weatherInf);
+        //console.log(weatherInf);
 
 
         document.getElementById("townName").textContent = weatherInf.city.name + " Five Day Forecast";
@@ -64,7 +64,7 @@ fetch(apiURL5forecast)
             let time = mylist[i].dt_txt;
 
             if (time.includes('18:00:00')) {
-                console.log("Found an entry with 18:00:00 in the time. it was report " + i + " from the mylist of 40");
+                //console.log("Found an entry with 18:00:00 in the time. it was report " + i + " from the mylist of 40");
 
                 forecastDayNumber += 1;
                 if (forecastDayNumber === 7) { forecastDayNumber = 0; }

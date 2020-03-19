@@ -1,8 +1,8 @@
 const Today = new Date();
-console.log(Today);
+//console.log(Today);
 
 const dayNumber = Today.getDay();
-console.log(dayNumber);
+//console.log(dayNumber);
 
 const element = document.getElementById("message");
 

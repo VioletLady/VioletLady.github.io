@@ -5,7 +5,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=2476e
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
   
 
     document.getElementById('current-temp').textContent = jsObject.main.temp;
@@ -18,10 +18,5 @@ fetch(apiURL)
     document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
     document.getElementById('icon').setAttribute('alt', desc);
     
-    //document.getElementById('place').innerHTML=weatherInfo.name;
-    //document.getElementById('temp').innerHTML=weatherInfo.main.temp;
-    //document.getElementById('tempMax').innerHTML=weatherInfo.main.temp_max;
-    
-    //document.getElementById('speed').innerHTML=weatherInfo.wind.speed;
   
  }); 

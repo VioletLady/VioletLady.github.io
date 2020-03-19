@@ -391,6 +391,24 @@ main>section.calendar>div.events{
     background-color: #42253b;
 }
 
+input {
+    display:none;
+}
+
+section#content {
+    display:none;
+}
+input#show:checked ~ section#content {
+  display:block;
+}
+
+input#hide:checked ~ section#content {
+    display:none;
+}
+
+.readMore{
+    color:#82d173;
+}
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/

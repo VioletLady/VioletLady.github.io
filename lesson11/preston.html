@@ -33,7 +33,7 @@
 <!-- HEADER HERE -->
 <div id="headerWrapper">
 	<header class="clearfix">
-        <img src="images/Windylogowstroke.png" alt="logo windy cloud">	
+        <a href="index.html"><img src="images/Windylogowstroke.png" alt="logo windy cloud"></a>	
         <h1>Wind Chill Factor</h1>
         <h2>We will let you know if you need a jacket</h2>
     </header>
@@ -80,26 +80,57 @@
 
         <h2 class="hidden" id="townName">Five Day Forecast</h2>
      
-        <section id="forecast"></section>
- 
+        <section id="forecast">
+
+
+        </section>
+        <section class="calendar">
+			<h3>Upcoming Events:</h3>
+			<hr>
+			<div class="events"></div>
+		</section>
+
         <div class="clearfix">
             
-            <h2>Article</h2>
+            <h2>Interesting Preston City Facts</h2>
             <img  class="smallImgTxt" src="images/yellowflowers.jpg" alt="preston small photo">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.
-                Dictum sit amet justo donec enim diam. Leo duis ut diam quam nulla porttitor massa. 
-                Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Imperdiet nulla malesuada 
-                pellentesque elit. Sem integer vitae justo eget. Sem nulla pharetra diam sit amet nisl 
-                suscipit. Per ne denique suscipiantur, ea eros tota falli eos, ad suas ceteros appetere eos. 
-                An commune pericula quo. Vix elit minimum an, ei case adhuc epicurei eum. Eruditi corpora
-                 quaestio te duo, vis tractatos sententiae et. Sed scaevola incorrupte argumentum cu. Sit 
-                 ea utamur debitis molestiae, integre denique et cum. Exerci voluptatibus per et, quo mutat 
-                 ullum ut, id viris salutandi per. Vel novum menandri omittantur ei, his atqui debet no.</p> 
+            <h3>Preston was almost named Worm Creek</h3>
+                <p>In 1866, Latter-day Saint pioneers arrived in the northern end of the Cache Valley, 
+                stretching across southeastern Idaho and northeastern Utah. They founded a community in that location 
+                and named it Worm Creek, because the waterways in the area resembled worms as they curved and wound 
+                their way through the countryside. (Another story relates that it was actually WARM Creek, because of 
+                the many hot springs in the area, but someone got it wrong and WORM Creek stuck!) But in 1881 changed 
+                it to Preston because leaders of the LDS Church in Salt 
+                Lake City objected to the name "Worm Creek" being part of any church congregation's name. The name 
+                Preston was suggested by a local member to honor William B. Preston, who at the time was president 
+                of the LDS Church's Cache Stake.</p>
+            <h3>“You gonna eat your tots?”</h3>
+                <p>Much of the 2004 film Napoleon Dynamite was shot in the city of Preston, including at Preston High School, 
+                located several blocks from U.S. Highway 91. Several area landmarks can be seen throughout the film. 
+                Preston is the home of the film's creators, Jared and Jerusha Hess; Jared attended high school in Preston.</p>
+
+                <label for="show"><section class="readMore">Read More</section></label>
+                <input type=radio id="show">
+                <section id="content">                  
+
+            <h3>Got lights? Preston has a festival of them!</h3>    
+                <p>Each year Preston holds the "Idaho Festival of Lights", which starts the day after Thanksgiving and goes 
+                until December 31. The festival was started by two local business men (Wayne Bell and Walter Ross) 
+                along with many other community organizations to help celebrate Christmas within the community. 
+                The festival consists of a lighted parade, fireworks, and displays in the city park. The merchants 
+                along the main street of Preston have their store fronts decorated with Christmas lights during the festival.
+                A key event of the festival is the International Bed Race, which is held on the Saturday following Thanksgiving 
+                on the main street of Preston. Additional events are a kids' parade and free movie.</p>
+            <h3>What's Preston like?</h3>
+                <p>Preston, Idaho is one of the best kept secrets of the West.  Nestled on the Idaho side of beautiful Cache Valley 
+                    and surrounded by towering mountains on each side, it is unbeatable for recreation opportunities, has that small 
+                    town feeling, and is close to whatever you need. 
+
+                    It is one of the safest places to live in the State of Idaho and in Cache Valley. </p>   
+                    
+                </section>    
+                <small>Sources: Kids Encyclopedia <a href ="https://kids.kiddle.co/Preston,_Idaho"> Preston Facts,</a></small>
+                <small>Preston Chamber of Commerce <a href ="https://kids.kiddle.co/Preston,_Idaho"> Preston History</a></small>
         </div>
 
         <div class="clearfix">
@@ -129,7 +160,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontload.js"></script>
 <script src="js/prestonWeather.js"></script>
-
+<script src="js/prestonCalendar.js"></script>
 
 </body>
 </html>
