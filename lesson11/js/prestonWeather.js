@@ -3,7 +3,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather/?id=5604473&appid=2476
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
-        console.log(weatherInfo);
+        //console.log(weatherInfo);
     
     let windchill = 35.74 + (0.6215 * weatherInfo.main.temp) - (35.75 * Math.pow(weatherInfo.wind.speed, 0.16)) + (0.4275 * weatherInfo.main.temp * Math.pow(weatherInfo.wind.speed, 0.16));
 
