@@ -407,7 +407,9 @@ input#hide:checked ~ section#content {
 }
 
 .readMore{
-    color:#82d173;
+    color:#4c2c69;
+    background: linear-gradient(90deg, rgba(171,250,169,1) 0%, rgba(226,226,226,0) 18%);
+    padding-left:8px;
 }
 /*----------- FOOTER --------------*/
 footer {
