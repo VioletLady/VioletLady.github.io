@@ -416,6 +416,7 @@ input#hide:checked ~ section#content {
 p.small{
     font-size: small;
 }
+
 /*----------- FOOTER --------------*/
 footer {
     /*background-color:  #82d173;*/
