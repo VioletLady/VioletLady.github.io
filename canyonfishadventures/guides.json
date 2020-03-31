@@ -6,11 +6,9 @@
       "experience": "8 years",
       "birthplace": "Vermont",
       "imageurl": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-      "email": saguaro@canyonfishadventures.com,
-      "certification level": 3,
-      "biography": "Saguaro grew up rafting and now has over 8 years of experience guiding and trip leading for MRO. 
-	Ryan is an elementary school teacher in the off-season and a proud father. His knowledge about the river and 
-	its history leaves every guest with a deep appreciation for whichever canyon they are rafting through."
+      "email": "saguaro@canyonfishadventures.com",
+      "certification level": "3",
+      "biography": "Saguaro grew up rafting and now has over 8 years of experience guiding and trip leading for MRO. Ryan is an elementary school teacher in the off-season and a proud father. His knowledge about the river and its history leaves every guest with a deep appreciation for whichever canyon they are rafting through."
     },
     {
       "name": "Gleaming",
@@ -18,11 +16,9 @@
       "experience": "6 years",
       "birthplace": "Idaho",
       "imageurl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-      "email": gleaming@canyonfishadventures.com,
-      "certification level": 4,
-      "biography":"Gleaming has been guiding for 6 years. Her an unmatched love for Idaho’s rivers, history, and beauty 
-	gives guests a unique perspective on how special the Idaho Wilderness is. She’s an Idaho native, raised on the Salmon River, 
-	and is a graduate of Natural Resources Management from the University of Idaho. She spends most of his free time with her husband, camera, dog, and drift boat."
+      "email": "gleaming@canyonfishadventures.com",
+      "certification level": "4",
+      "biography":"Gleaming has been guiding for 6 years. Her an unmatched love for Idaho’s rivers, history, and beauty gives guests a unique perspective on how special the Idaho Wilderness is. She’s an Idaho native, raised on the Salmon River, and is a graduate of Natural Resources Management from the University of Idaho. She spends most of his free time with her husband, camera, dog, and drift boat."
     },
     {
       "name": "Everest",
@@ -30,11 +26,9 @@
       "experience": "16 years",
       "birthplace": "Milwaukee",
       "imageurl": "https://images.pexels.com/photos/3889939/pexels-photo-3889939.jpeg",
-      "email": everest@canyonfishadventures.com,
-      "certification level": 4,
-      "biography": "Everest has 16 years experience guiding and is a great fly fisherman and an incredible storyteller. 
-	After working for a few years in Natural Resources, he now spends most of his time climbing, fishing, rafting, 
-	and working as a ski instructor at Snowbird in the winter."
+      "email": "everest@canyonfishadventures.com",
+      "certification level": "4",
+      "biography": "Everest has 16 years experience guiding and is a great fly fisherman and an incredible storyteller. After working for a few years in Natural Resources, he now spends most of his time climbing, fishing, rafting, and working as a ski instructor at Snowbird in the winter."
     }
   ]
 }
