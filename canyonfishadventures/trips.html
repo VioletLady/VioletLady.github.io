@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Canyon Fish Adventures Website">
+<meta name="author" content="Miriam Aguirre">
+
+<!-- This start file was build by Miriam Aguirre  -->
+<title>Canyon Fish Adventures: Trips</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">     
+<script src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/fishLogo1.png" alt="logo canyon fish">	
+        <h1>Canyon Fish Adventures</h1>
+        <h2>The best day of your life awaits you!</h2>
+    </header>
+</div>    
+    
+<!-- NAVIGATION HERE -->
+<div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide" id="primaryNav">
+            <li><a href="canyonfishadventures.html">Home</a></li>
+            <li class="active"><a href="trips.html">Trips Packages</a></li>
+            <li><a href="guides.html">River Guides</a></li>
+            <li><a href="reservations.html">Reservations</a></li>            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Plan your next trip!</h1>
+        
+        <div><h2>Salmon River Rafting</h2>
+            <p>The Salmon River flows 425 miles, drains over 14,000 square miles and drops more than 7,000 vertical feet from 
+                its headwaters. Natural and untamed, the Salmon River is protected by Congress as one of America’s first Wild 
+                and Scenic Rivers. It has shaped its course through a rugged and diverse landscape providing unique river trips 
+                you will only experience in Idaho.</p>
+            <p>Idaho's Salmon River is divided into three separate sections, the Middle, the Main and the Lower. Each of these 
+                trips offers a very unique setting from one another. Just because they call it the "River of No Return" doesn't 
+                mean you shouldn't! Each section of river, offers something unique.</p>
+            </div>
+
+<div class="trips">
+        <div><h2>5 day Main Salmon River Trip</h2>
+        <p>Rich in scenic wonders and history, the Main Salmon River drops 1,200 feet in 89 miles. The blue-green waters, known as the "River of No Return," warm up to very comfortable temperatures in 
+            July and August. Calm sections and deep pools perfect for relaxing, swimming, and simply absorbing the country's splendor.
+            Enjoy sandy camping beaches backed up to pine forests and mountains.</p>
+        <p>Begins and Ends: Salmon, Idaho & McCall, Idaho <br>Season: June-August<br> River Distance: 82 miles <br> Rapids: Class II-IV <br>Boat Type: Oar, Paddle, Kayak <br>Minimum Age: 6 (12 at high water)<br><strong>STARTING AT $995</strong></p>    
+        <img src="/images/trip1.jpg" alt="Salmon River Trip Main area">    
+        </div>
+
+        <div><h2>6 day Middle Fork Salmon River Trip</h2>
+        <p>Flowing untamed through a land so rugged that any attempts at settlement have failed, the Middle Fork of the Salmon River 
+            is truly a legend among the whitewater rivers of the world. This pure, clear, free-flowing river drops 3,000 feet over 
+            its 100 mile course through the remote and spectacular River of No Return Wilderness, the largest Wilderness in the lower 
+            48 states.</p> 
+        <p>Begins & Ends: Stanley, Idaho & Salmon, Idaho <br>Season: June-August<br>River Distance: 100 miles<br>Rapids: Class III-V<br>Boat Type: Oar Boat & Paddle Raft<br>Minimum Age: 7-12 (Based on water)<br><strong>STARTING AT $1990</strong></p>
+            <img src="/images/trip2.jpg" alt="Salmon River Trip Middle area">      
+        </div>
+
+        <div><h2>5 day Lower Salmon River Trip</h2>
+        <p>Soak up rich scenic wonder and history while splashing toward huge sandy camping beaches. The Lower Salmon River trip explores 
+            the final miles of the Salmon River before it joins the mighty Snake River on its way to the Columbia. On this section of river, 
+            the trip covers 53 miles on the Salmon River plus another 21 miles on the Snake River. </p> 
+       <p> Begins and Ends: Lewiston, Idaho<br>Season: July-September<br>River Distance: 89 miles<br>Rapids: Class II-III<br>Boat Type: Oar, Paddle, Inflatable Kayak<br>Minimum Age: 5 &10 (Based on water levels)<br><strong>STARTING AT $1495</strong></p>
+        <img src="/images/trip3.jpg" alt="Salmon River Trip Lower area">  
+        </div>
+
+</div>    
+        <section class="weathersummary">
+            <p>Riggins ID Weather: <span id="weather">xx</span>
+            <img src="https://openweathermap.org/img/w/" alt="small preview current weather" id="icon">
+            <span id="current">00</span>&deg;</p>    
+            </section>
+
+    </main>
+    
+<!-- FOOTER HERE -->
+<div id="footerWrapper">  
+    <footer>
+        &#128031;  &copy; 2020  | Miriam Aguirre | <a href="sources.html">Sources | </a> <script src="js/todaydate.js"></script>  🐠
+    </footer>
+</div> 
+<script src="js/todayWeather.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body>
+</html>

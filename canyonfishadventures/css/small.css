@@ -1,0 +1,418 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#4A789C;
+    background-image: url("/images/wavy-dots.png");
+    background-repeat: repeat;
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper {background-color:#E96D63;}
+
+header {
+    padding: .5rem 2%;
+    background-color: #E96D63;
+    color:#ffffff;
+}
+
+header img{float:left; margin-right:10px; width:50px;}
+header h1 {font-size:3rem;
+        margin: 0; 
+        padding:5px;
+        text-align:center;
+        font-family: 'Leckerli One', cursive;
+        background: -webkit-linear-gradient(#eee 0%, #85c1f5 150%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+header h2 {margin:0; font-size:1.5rem;
+        font-family: 'Open Sans', sans-serif;
+}
+
+/*----------- NAVIGATION --------------*/
+#navWrapper, #footerWrapper{
+    
+    background: #4A789C; /* Old browsers */
+    background: rgb(74,120,156);
+    background: linear-gradient(0deg, rgba(74,120,156,1) 0%, rgba(133,193,245,1) 45%);
+    
+}
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(8, 53, 87);
+    /*padding: .5rem 0;*/
+    padding:.8rem 2%;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid rgba(10, 226, 241, 0.3);
+}
+
+nav ul li a:hover {
+    background: #4A789C;
+    color: #F4BA70;
+}
+nav ul li.active a {
+    background: #4A789C;
+    color: #fff;
+}
+
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color:#fff;}
+
+nav ul li a:hover{background-color:rgba(0,0,0,0.4);}
+
+nav ul.hide{display: none;}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+}
+main h1{color:#E96D63;
+    text-align: center;
+}
+main h2{color:rgb(8, 53, 87);
+         font-family: 'Leckerli One', cursive;
+       }
+
+.main img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border-radius:0 0 15px 15px;
+}
+
+
+.main {
+    background-color:#7FCA9F;
+    border: solid 2px #E96D63;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.main a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.main a:hover{
+    text-decoration: none;
+    color:#4A789C;
+}
+
+main.center{
+    text-align: center;
+}
+
+.main p, h2 {
+    margin:2%;
+}
+
+
+.flex {
+    display:block;
+    text-align: center;
+}
+
+section.weathersummary{
+    margin:2% 0;
+    text-align:center;
+    padding:.5em;
+    width:100%;
+}
+
+section.weathersummary p {
+    display:inline;
+    font-weight: 900; 
+    background-color:#F4BA70;
+    border: solid 2px #E96D63;
+    border-radius: 10px;
+    padding:1%;
+}
+
+section.weathersummary>p>img#icon {
+    max-width:20px;
+    display: inline;
+    vertical-align: middle;
+ }
+
+ .trips {
+    display:block;
+ }
+
+ .trips div{
+    border: solid #E96D63 2px;
+    margin-bottom: 1em;
+    border-radius:15px;
+ }
+
+ .trips p{
+     margin:4%;
+ }
+
+ .trips h2{
+     background-color: #85c1f5;
+     vertical-align: top;
+     padding:20px;
+     text-align: center;
+     margin:0;
+     border-radius:13px 13px 0 0;
+ }
+ .trips img{
+    vertical-align: bottom;
+    width:100%;
+    border-radius:0 0 13px 13px;
+ }
+/*-------------homepage slideshow--------*/
+.slider {
+    display:none;
+}
+
+/*--------Reservations form-------*/
+ form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #82d173;
+    border-radius:10px;
+    padding: 1rem 2.5%;
+}
+
+form legend{
+    color:#4A789C;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display:block;
+    padding-top: 1rem;
+    color: #4A789C;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display:block;
+    font-size:1rem;
+    border: solid 1px #4A789C;
+    border-radius: 4px;
+    padding:.75rem;
+    color: #555;
+    width:100%;
+    max-width:20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display:block;
+    padding:.75rem 0;
+    color: #4A789C;
+}
+
+form input.submitBtn{
+    border:none;
+    background-color:#7FCA9F;
+    border-radius: 1rem;
+    padding:.75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width:95%;
+    max-width: 20rem;
+    color:rgb(8, 53, 87);
+    cursor: pointer;
+}
+
+form input.submitBtn:hover{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #E96D63;
+}
+form label.top input:required {
+    border-left: #E96D63 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left:#7FCA9F solid 6px;
+}
+
+.flexly {
+	display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    color: #42253b;
+    font-size: 1rem;
+}
+
+#ratingvalue{
+    padding-left: 5px;
+}
+
+.comments{
+    font-size: small;   
+    display:block;
+}
+
+label.comments>textarea{
+    display:block;
+    margin:10px;
+    border-radius: 4px;
+    border-color: #7FCA9F;
+    background-color: rgba(218, 218, 218, 0.548);
+   
+}
+
+/*-------------River Guides-------------*/
+div.cards{
+    display: block;
+}
+
+div.cards h2,p{
+    margin:1em;
+}
+
+div.cards>div{
+    border: solid 5px #85c1f5;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(97, 97, 97);
+    margin-bottom: 1em;
+   
+}
+div.cards>div img {
+    vertical-align: bottom;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 12px 12px;
+}
+
+/*-----contact form-----*/
+.container input[type=text], .container>select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #85c1f5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .container input[type=submit] {
+    background-color: #E96D63;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container input[type=submit]:hover {
+    background-color: #7FCA9F;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #F4BA70;
+    padding: 20px;
+    border: 1px solid #85c1f5;
+    margin: 15px 0;
+  }
+
+.container form>label> input:required {
+    border-left: #E96D63 solid 6px;
+}
+
+.container form>label> input:required:valid{
+    border-left:#7FCA9F solid 6px;
+}
+
+  .contactusbox{
+    display: block;
+    text-align: center;
+} 
+
+.contactusbox section.address, section.phone-email{
+   border: solid #85c1f5 2px;
+   margin-bottom: .75em;
+   border-radius:15px;
+} 
+
+
+.strong, .thankYou{
+    text-align:center;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.thankYou img{
+    border: 15px ridge #7FCA9F;
+    margin:10px;
+}
+
+.center img{
+    border:inset #7FCA9F 15px;
+    margin-bottom: 1em;
+}
+/*----------- FOOTER --------------*/
+footer {
+    /*background-color:  #82d173;*/
+    padding: .5rem 2%;
+    text-align: center;
+    color: rgb(8, 53, 87);
+    font-size: 12px;
+    line-height: 1.5rem;
+    bottom: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #4c2c69;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #4c2c69;
+    color: #abfaa9;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

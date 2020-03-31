@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Canyon Fish Adventures Website">
+<meta name="author" content="Miriam Aguirre">
+
+<!-- This start file was build by Miriam Aguirre  -->
+<title>Canyon Fish Adventures: Contact</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">     
+<script src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/fishLogo1.png" alt="logo canyon fish">	
+        <h1>Canyon Fish Adventures</h1>
+        <h2>The best day of your life awaits you!</h2>
+    </header>
+</div>    
+    
+<!-- NAVIGATION HERE -->
+<div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide" id="primaryNav">
+            <li><a href="canyonfishadventures.html">Home</a></li>
+            <li><a href="trips.html">Trips Packages</a></li>
+            <li><a href="guides.html">River Guides</a></li>
+            <li><a href="reservations.html">Reservations</a></li>            
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Contact us</h1>
+        <div class="clearfix">
+            <div class="contactusbox">                  
+                <section class="address">
+                <h3>Address:</h3><p>1000 S Main St.<br>Riggins, ID 83549</p>
+                </section>
+                <section class="phone-email">
+                <p><h3>Phone:</h3> <p>208-551-500</p>
+                <p><h3>Email:</h3><p>info@canyonfishadventures.com </p>
+                </section>
+                <section class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22403.738223297714!2d-116.33840448114992!3d45.42008106241247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585353827031!5m2!1sen!2sus"  width="300" height="200" style="border:0;" allowfullscreen=""></iframe></section>            
+            </div>
+         </div>      
+
+        <div class="container">
+            <form method="get" action="thanks.html" title="Contact us Form">
+               
+              <label for="fname">First Name*
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required></label>
+               
+              <label for="lname">Last Name*
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></label>
+
+              <label for="email">Email* 
+             <input type="text" name="email" placeholder="myemail@gmail.com" required></label>
+          
+              <label for="subject">Type your message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Send my message" class="submitBtn">
+          
+            </form>
+          </div>
+    </main>
+    
+<!-- FOOTER HERE -->
+<div id="footerWrapper">  
+    <footer>
+        &#128031;  &copy; 2020  | Miriam Aguirre | <a href="sources.html">Sources | </a> <script src="js/todaydate.js"></script>  🐠
+    </footer>
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Canyon Fish Adventures Website">
+<meta name="author" content="Miriam Aguirre">
+
+<!-- This start file was build by Miriam Aguirre  -->
+<title>Canyon Fish Adventures: Home</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">     
+<script src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/fishLogo1.png" alt="logo canyon fish">	
+        <h1>Canyon Fish Adventures</h1>
+        <h2>The best day of your life awaits you!</h2>
+    </header>
+</div>    
+    
+<!-- NAVIGATION HERE -->
+<div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide" id="primaryNav">
+            <li class="active"><a href="canyonfishadventures.html">Home</a></li>
+            <li><a href="trips.html">Trips Packages</a></li>
+            <li><a href="guides.html">River Guides</a></li>
+            <li><a href="reservations.html">Reservations</a></li>            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Welcome to your next adventure!</h1>
+        
+
+
+        <div class="slider">
+            <img src="images/river-wide.jpeg" alt="hero image river wide">
+            <img src="images/littlecolorado.jpg" alt="little colorado river">
+            <img src="images/salmon-kayak.jpg" alt="salmon kayak">
+        </div>
+
+        <div class="flex">
+
+            <div class="main"><a href="contact.html"><h2>Contact us</h2>
+                <p>Contact form/ phone/ map</p>
+                <img src="images/elves-chasm.jpg" alt="elves charm"></a>
+            </div>
+
+            <div class="main"> <a href="trips.html"><h2>See our packages</h2>
+            <p>Select the best package for you</p>
+            <img src="images/white-draft.jpg" alt="white draft"></a>    
+            </div>
+            
+            
+            <div class="main" ><a href="reservations.html"><h2>Book a Trip</h2>
+            <p>Reservation form</p> 
+            <img src="images/salmon-boat.jpg" alt="salmon boat"></a>        
+            </div>
+
+        </div>
+
+        <section class="weathersummary">
+            <p>Riggins ID Weather: <span id="weather">xx</span>
+            <img src="https://openweathermap.org/img/w/" alt="small preview current weather" id="icon">
+            <span id="current">00</span>&deg;</p>    
+        </section>
+
+    </main>
+    
+<!-- FOOTER HERE -->
+<div id="footerWrapper">  
+    <footer>
+        &#128031;  &copy; 2020  | Miriam Aguirre | <a href="sources.html">Sources | </a> <script src="js/todaydate.js"></script>  🐠
+    </footer>
+</div> 
+<script src="js/todayWeather.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body>
+</html>
