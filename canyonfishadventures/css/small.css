@@ -162,6 +162,7 @@ section.weathersummary p {
     font-weight: 900; 
     background-color:#F4BA70;
     border: solid 2px #E96D63;
+    color:rgb(8, 53, 87);
     border-radius: 10px;
     padding:1%;
 }
