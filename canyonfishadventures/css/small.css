@@ -101,6 +101,7 @@ main {
 }
 main h1{color:#E96D63;
     text-align: center;
+    font-weight: 400;
 }
 main h2{color:rgb(8, 53, 87);
          font-family: 'Leckerli One', cursive;
