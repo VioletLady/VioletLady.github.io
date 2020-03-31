@@ -401,14 +401,13 @@ footer {
 }
 
 footer a {
-    color: #4c2c69;  
+    color: #E96D63;  
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
-    background-color: #4c2c69;
-    color: #abfaa9;
+    color: #ffffff;
 }
 
 
