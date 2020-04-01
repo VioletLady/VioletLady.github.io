@@ -1,5 +1,5 @@
-/* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 35rem) {
+/* 35em is also 600px (if basefont is 16px) */
+@media only screen and (min-width: 37.5rem) {
 
 
 /*----------- BODY --------------*/
@@ -40,7 +40,7 @@ nav ul li a {
 /*----------- MAIN --------------*/
 .trips {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
  }
 
