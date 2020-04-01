@@ -53,6 +53,59 @@ div.cards{
 div.cards>div img {
     height:472px;  
 }
+
+/*---------------Slider----------------------*/
+.slider img {
+	position:absolute;	/*Collapses all images on top of each other*/
+	left:0;			/*Sets the images to be on the far left side of the slider*/
+}
+
+.slider {
+	position: relative;	/*Allows the slider to move relatively to the parent container*/
+	height:270px;		/*Sets the height of the slider*/
+	width:940px;		/*Sets the width of the slider*/
+	margin:10px;		/*Removes any default margins*/
+    overflow: hidden;	/*Hides any excess*/
+    border:inset #7FCA9F 15px;
+    display:block;
+}
+
+.slider img {
+    animation-name: sliderFadeInOut;		/*This name will be used to call this animation*/
+    animation-timing-function: ease-in-out;	/*This changes the speed of the animation*/
+    animation-iteration-count: infinite;		/*This makes the animation loop forever*/
+    animation-duration: 7.5s;			/*This is the total length of the animation (all slides)*/
+    
+    /*The following code is how it would be written using the shorthand*/
+    /*animation: sliderFadeInOut 7.5s ease-in-out infinite;*/
+  }
+  @keyframes sliderFadeInOut {
+	0% {
+		opacity:1;
+	}
+	27% {
+		opacity:1;
+	}
+	33% {
+		opacity:0;
+	}
+	93% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+.slider img:nth-of-type(1) {
+    animation-delay: 5s;
+  }
+.slider img:nth-of-type(2) { 
+    animation-delay: 2.5s;
+  }
+.slider img:nth-of-type(3) {
+    animation-delay: 0s;
+  }
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
