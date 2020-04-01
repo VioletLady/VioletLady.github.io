@@ -366,10 +366,11 @@ div.cards>div img {
     border-left:#7FCA9F solid 6px;
 }
 
-  .contactusbox{
+.contactusbox{
     display: block;
     text-align: center;
 } 
+
 
 .contactusbox section.address, section.phone-email{
    border: solid #85c1f5 2px;

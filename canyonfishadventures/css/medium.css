@@ -59,6 +59,10 @@ nav ul li a {
     border:none;
 }
 
+.contactusbox p{
+    margin:0;
+}
+
 div.cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
