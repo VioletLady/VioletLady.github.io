@@ -150,6 +150,11 @@ main.center{
     text-align: center;
 }
 
+.flex img{
+    margin-top:auto;
+    align-items: flex-end;
+}
+
 section.weathersummary{
     margin:2% 0;
     text-align:center;
