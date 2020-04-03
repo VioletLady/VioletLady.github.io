@@ -356,6 +356,7 @@ div.cards>div img {
     padding: 20px;
     border: 1px solid #85c1f5;
     margin: 15px 0;
+    color: rgb(8, 53, 87);
   }
 
 .container form>label> input:required {
@@ -371,13 +372,11 @@ div.cards>div img {
     text-align: center;
 } 
 
-
 .contactusbox section.address, section.phone-email{
    border: solid #85c1f5 2px;
    margin-bottom: .75em;
    border-radius:15px;
 } 
-
 
 .strong, .thankYou{
     text-align:center;
