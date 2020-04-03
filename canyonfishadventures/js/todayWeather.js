@@ -3,7 +3,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83549,us&appid=247
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
-		console.log(weatherInfo);
+		//console.log(weatherInfo);
     
     document.getElementById("weather").innerHTML=weatherInfo.weather[0].main;
     document.getElementById("current").innerHTML=weatherInfo.main.temp;
