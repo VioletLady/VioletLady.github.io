@@ -1,6 +1,9 @@
 //var today = new Date();
 //var formatOptions = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 //document.write(today.toLocaleDateString('en-US', formatOptions));
+//or
+//document.getElelementById("curentdate").textContent = currentdate;
+
 
 let m = new Date();
 
@@ -16,4 +19,3 @@ let year = m.getFullYear();
 
 let dateString = weekday + ", " + month + " " + day + ", " + year + " ";
 document.getElementById("todayDate").textContent = dateString;
-
