@@ -348,6 +348,7 @@ div.cards>div img {
   
   .container input[type=submit]:hover {
     background-color: #7FCA9F;
+    color: rgb(8, 53, 87);
   }
   
   .container {
