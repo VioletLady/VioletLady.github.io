@@ -22,4 +22,4 @@ var formatOptions = {weekday: 'long', year: 'numeric', month: 'long', day: 'nume
 var currentdate = today.toLocaleDateString('en-US', formatOptions);
 
 
-document.getElementById("todaydate").textContent = currentdate;
+document.getElementById("todayDate").textContent = currentdate;
