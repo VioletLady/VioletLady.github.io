@@ -283,6 +283,7 @@ form input.submitBtn{
 form input.submitBtn:hover{
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #E96D63;
+    color:#ffffff;
 }
 form label.top input:required {
     border-left: #E96D63 solid 6px;
@@ -366,6 +367,7 @@ div.cards>div img {
   .container input[type=submit]:hover {
     background-color: #7FCA9F;
     color: rgb(8, 53, 87);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
   
   .container {
